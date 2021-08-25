@@ -29,10 +29,18 @@
   > to show detail about location settings
 - git config --global user.name "gossio"
 - git config --global user.email "email"
+
+### Connection to GIT
 - git remote -v
   > to see origin
+ 
+ #### HTTPS
+ 
 - git remote add origin {https-url}
   > to set remote origin to manage the project by https connection
+
+#### SSH
+
 - git remote set-url origin {ssh-url}
   > setting a remote rep by SSH instead of HTTPS
 
