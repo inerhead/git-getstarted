@@ -9,6 +9,8 @@
 - git commit -m "message to the commmit"
   > to send the commit
 - git status
+- git status -s
+- git status -s -b
 - git log 
 - git show
 - git show <filename.extention>
@@ -16,13 +18,32 @@
 - git rm <filename.extention>
   > to remove from the staging
 - git diff <id_commit1> <id_commit2>
+- git commit -am "mensaje"
+- git commit -amend -> to modify the last commit message 
+- git checkout -- . -> remove from staging
+- git checkout --  README.md -> remove from staging
 - git push origin master
 - git pull origin master --allow-unrelated-histories
   > when you create a rep in github and you want to join all histories with a local repo to then push later to that repo
 
+## Logging
+	
+	- git log --oneline --decorate --all --graph
+	- git log --oneline 
+	
+## Moving to specific time
+	
+	- git reset --soft 89rfgr87 -> keep changes in staging
+	- git reset --mixed 851c2  -> keep changes out of staging, in local
+	- git reset --hard 89rfgr87 -> go to specific commit without changes
+	- git reflog  -> to see all commits done
+	- git config core.autocrlf true
+
+
 ## Global Config
 
-- git config 
+- git config
+- git config --global -e 
 - git config -l
   > to see global settings
 - git config --list --show-origin
