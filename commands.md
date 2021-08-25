@@ -52,6 +52,16 @@
 ## Shortcuts Alias
 
 	- git config --global alias.lg "log --oneline --decorate --all"
+	- alias arbolito="git log --oneline --decorate --all --graph"
+
+## Tags
+
+	- git tag -a <verionName> -m "message" idCommit
+	- git push origin --tags
+	- git tag -> to see all tags
+	- git tag -d <vertionName> -> to delete a tag  then -> git push origin :refs/tags/<vertionName>
+	
+	
 
 ## Global Config
 
