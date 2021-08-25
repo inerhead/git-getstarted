@@ -39,6 +39,7 @@
 	- git reset --hard 89rfgr87 -> go to specific commit without changes
 	- git reflog  -> to see all commits done
 	- git config core.autocrlf true
+	- git checkout master <filename.txt> -> get last version from origin master
 	
 ## Branches
 
