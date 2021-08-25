@@ -18,6 +18,7 @@
 	- git rm <filename.extention>
 	  > to remove from the staging
 	- git diff <id_commit1> <id_commit2>
+	- Git diff <branch1> <branch2>
 	- git commit -am "mensaje"
 	- git commit -amend -> to modify the last commit message 
 	- git checkout -- . -> remove from staging
@@ -38,7 +39,18 @@
 	- git reset --hard 89rfgr87 -> go to specific commit without changes
 	- git reflog  -> to see all commits done
 	- git config core.autocrlf true
+	
+## Branches
 
+	- git checkout master -> to move to another branch
+	- git checkout -b <branchname> - > to create and move to another branch
+	- git branch <branchName> -> to create a new branch
+	- git branch -d <branchName> -> to delete a branch
+	- git merge <branchName> -> always locate it on the branch you want to merge with other
+	
+## Shortcuts Alias
+
+	- git config --global alias.lg "log --oneline --decorate --all"
 
 ## Global Config
 
